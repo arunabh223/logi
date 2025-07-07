@@ -11,6 +11,7 @@ create_rfq_task:
       - Evaluation criteria and required documentation  
       - Contact information for submission and inquiries  
   agent: rfq_creator   
+  output_file: rfq_document.md
 
 evaluate_carrier_task:  
   description: >  

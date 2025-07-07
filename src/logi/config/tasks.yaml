@@ -1,0 +1,29 @@
+create_rfq_task:  
+  description: >  
+    Draft a detailed Request for Quotation (RFQ) for shipping {material} to {location}.   
+    Ensure the RFQ includes all essential shipment details, requirements, timelines, and evaluation criteria.  
+    The document should enable qualified carriers to submit comprehensive and competitive bids.  
+  expected_output: >  
+    A structured RFQ document that includes:  
+      - Shipment overview (material, quantity, origin, destination)  
+      - Scope of work and delivery requirements  
+      - Submission guidelines and timelines  
+      - Evaluation criteria and required documentation  
+      - Contact information for submission and inquiries  
+  agent: rfq_creator   
+
+evaluate_carrier_task:  
+  description: >  
+    Assess available carriers for shipping {material} to {location}.  
+    Load carrier data from the provided CSV file and execute the evaluation Python {script} to  
+    programmatically identify the top 3 carrier options based on performance, compliance, and cost metrics.  
+  expected_output: >  
+    A list with ratings and justifications for at least 3 top carriers, including:  
+      - Carrier name  
+      - Performance summary  
+      - Compliance record  
+      - Cost comparison  
+      - Final recommendation with reasoning  
+  agent: carrier_evaluator  
+  output_file: carrier_report.md
+

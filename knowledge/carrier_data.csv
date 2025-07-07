@@ -1,0 +1,21 @@
+ShipmentID,CarrierName,Origin,Destination,DeliveryDate,ShipmentType,DeliveryTimeDays,OnTime,Damaged,CustomerRating
+1001,SwiftTrans,Chicago,New York,2024-05-12,Parcel,2,Yes,No,4  
+1002,BlueCargo,Los Angeles,Miami,2024-05-11,Freight,5,No,No,3  
+1003,FleetXpress,Houston,Boston,2024-05-10,Express,3,Yes,No,5  
+1004,GlobalWay,Seattle,Denver,2024-05-15,Refrigerated,4,Yes,No,4  
+1005,EagleShip,Atlanta,San Francisco,2024-05-16,Parcel,6,No,Yes,2  
+1006,SwiftTrans,Miami,Chicago,2024-05-13,Freight,3,Yes,No,5  
+1007,BlueCargo,Dallas,Phoenix,2024-05-09,Express,2,Yes,No,4  
+1008,GlobalWay,Boston,Detroit,2024-05-14,Parcel,3,Yes,No,5  
+1009,FleetXpress,San Diego,Seattle,2024-05-11,Freight,5,No,No,3  
+1010,EagleShip,Denver,Los Angeles,2024-05-12,Refrigerated,4,Yes,No,4  
+1011,SwiftTrans,New York,Houston,2024-05-15,Freight,4,Yes,No,5  
+1012,BlueCargo,San Francisco,Chicago,2024-05-10,Express,3,No,Yes,2  
+1013,FleetXpress,Philadelphia,Miami,2024-05-13,Parcel,2,Yes,No,5  
+1014,GlobalWay,Phoenix,Atlanta,2024-05-16,Express,3,Yes,No,4  
+1015,EagleShip,Detroit,Boston,2024-05-15,Parcel,5,No,No,3  
+1016,SwiftTrans,Los Angeles,Seattle,2024-05-11,Refrigerated,4,Yes,No,4  
+1017,BlueCargo,Chicago,Dallas,2024-05-14,Freight,5,Yes,No,4  
+1018,FleetXpress,Miami,San Diego,2024-05-13,Express,2,Yes,No,5  
+1019,GlobalWay,Houston,Phoenix,2024-05-10,Parcel,3,Yes,No,5  
+1020,EagleShip,Denver,Philadelphia,2024-05-12,Refrigerated,6,No,Yes,2  

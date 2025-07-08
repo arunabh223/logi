@@ -44,6 +44,7 @@ if run_btn:
             inputs = {  
             "material": material,  
             "location": location,
+            "script" : "knowledge/evaluate_carrier.py"  # Path to the script for carrier evaluation (Hardcoded)
             }  
             with capture_output(output_container):
                 result = Logi().crew().kickoff(inputs=inputs)
@@ -61,17 +62,33 @@ if run_btn:
     
     # Create download buttons
     st.divider()
-    download_col1, download_col2, download_col3 = st.columns([1, 2, 1])
-    with download_col2:
+    download_col1, download_col2 = st.columns([1, 1])
+    with download_col1:
         st.markdown("### 📥 Download Report")
         
-        # Download as Markdown
+        # Download final report
         st.download_button(
             label="Download Report",
             data=result_text,
-            file_name="research_report.md",
-            mime="text/markdown",
-            help="Download the research report in Markdown format"
+            file_name="research_report.txt",
+            mime="text/plain",
+            help="Download the research report as a text file.",
+            on_click="ignore"
+        )
+
+    with download_col2:
+        st.markdown("### 🧰 Download artefacts")
+
+        # Download RFQ
+        with open("rfq_document.md", 'r', encoding='utf-8') as file:
+            content = file.read()
+        st.download_button(
+            label="Download RFQ Document",
+            data=content,
+            file_name="rfq_document.txt",
+            mime="text/plain",
+            help="Download the RFQ document text",
+            on_click="ignore"
         )
 
 # Add footer

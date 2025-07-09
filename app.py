@@ -44,7 +44,7 @@ if run_btn:
             inputs = {  
             "material": material,  
             "location": location,
-            "script" : "knowledge/evaluate_carrier.py"  # Path to the script for carrier evaluation (Hardcoded)
+            "script" : "knowledge/evaluate_carrier.py"  # Hardcoded path to the python script
             }  
             with capture_output(output_container):
                 result = Logi().crew().kickoff(inputs=inputs)
@@ -91,8 +91,8 @@ if run_btn:
             on_click="ignore"
         )
 
-# Add footer
-st.divider()
-footer_col1, footer_col2, footer_col3 = st.columns([1, 2, 1])
-with footer_col2:
-    st.caption("Made with ❤️ using [CrewAI](https://crewai.com) and [Streamlit](https://streamlit.io)")
+# # Add footer
+# st.divider()
+# footer_col1, footer_col2, footer_col3 = st.columns([1, 2, 1])
+# with footer_col2:
+#     st.caption("Made with ❤️ using [CrewAI](https://crewai.com) and [Streamlit](https://streamlit.io)")

@@ -1,19 +1,19 @@
-1. **Carrier Name:** FleetXpress  
-   - **Performance Summary:** FleetXpress has consistently high performance with a customer rating of 5. It has demonstrated capability in handling goods with care, ensuring timely delivery and customer satisfaction.
-   - **Compliance Record:** Compliance is strong with a score of 95, showcasing adherence to necessary regulations for transporting pharmaceutical products.
-   - **Cost Comparison:** Priced at $1200, FleetXpress falls within the competitive range considering its performance and compliance.
-   - **Final Recommendation:** FleetXpress stands out due to exceptional performance, high compliance, and reasonable pricing, making it a prime choice for shipping insulin to the UK.
+1. **Carrier Name**: GlobalWay
+   - **Performance Summary**: GlobalWay completed all shipments on time, demonstrating a 100% on-time performance. They have an undamaged shipment percentage of 100%, showing their reliability in handling goods without causing damage.
+   - **Compliance Record**: GlobalWay complies with regulations for transporting temperature-sensitive pharmaceuticals like insulin, maintaining the required environments throughout delivery.
+   - **Cost Comparison**: Given their high reliability and performance, the cost is competitive considering the quality of service.
+   - **Final Recommendation**: GlobalWay is recommended due to its impeccable record and ability to meet stringent handling requirements, essential for pharmaceutical transportation.
 
-2. **Carrier Name:** FleetXpress  
-   - **Performance Summary:** Again, FleetXpress is highlighted for high performance similar to the first option.
-   - **Compliance Record:** It maintains a compliance score of 95, which emphasizes its strong regulatory adherence.
-   - **Cost Comparison:** The cost remains at $1200, presenting good value for the service level.
-   - **Final Recommendation:** It is reinforced as a reliable carrier for transporting sensitive pharmaceuticals due to its excellent track record.
+2. **Carrier Name**: SwiftTrans
+   - **Performance Summary**: SwiftTrans has also achieved a perfect on-time delivery record and an intact shipment rate of 100%. Their customer ratings are consistently high.
+   - **Compliance Record**: SwiftTrans adheres completely to pharmaceutical shipping guidelines, ensuring insulin is transported in optimal conditions.
+   - **Cost Comparison**: SwiftTrans offers good value for their consistent and reliable service.
+   - **Final Recommendation**: SwiftTrans is highly suited as a preferred carrier due to its excellent service quality and track record, ensuring compliance and customer satisfaction.
 
-3. **Carrier Name:** FleetXpress  
-   - **Performance Summary:** FleetXpress maintains its top position with a customer rating of 5 across the board.
-   - **Compliance Record:** With a 95 compliance score, it assures dependable regulatory compliance.
-   - **Cost Comparison:** At a cost of $1200, FleetXpress offers competitive pricing given its reliability and compliance ratings.
-   - **Final Recommendation:** Repetition of FleetXpress at the top results from its consistent superior evaluation metrics, ensuring confidence in reliable shipping for sensitive insulin shipments.
+3. **Carrier Name**: FleetXpress
+   - **Performance Summary**: While slightly lower in on-time performance at 75%, FleetXpress maintains 100% protection against damage, with strong customer ratings.
+   - **Compliance Record**: FleetXpress ensures all shipments abide by necessary regulations, critical for maintaining pharmaceutical integrity.
+   - **Cost Comparison**: FleetXpress remains competitive in pricing, especially considering the high standards of handling.
+   - **Final Recommendation**: FleetXpress is recommended for consideration due to its commitment to maintaining quality shipment standards and high customer satisfaction despite a slightly lower on-time delivery rate.
 
-FleetXpress consistently ranks as the top carrier across all evaluated shipments, highlighting strong performance, high regulatory compliance, and competitive cost for pharmaceutical transportation to the UK. It's the recommended partner for Insulin shipment given the evaluation criteria.
+These carriers represent the best options based on their performance metrics and compliance with pharmaceutical handling protocols necessary for shipping insulin to the UK. Their dedication to maintaining quality and adhering to regulations makes them ideal partners for such critical shipments.

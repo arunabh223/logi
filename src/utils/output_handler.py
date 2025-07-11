@@ -9,7 +9,7 @@ import re
 #--------------------------------#
 class StreamlitProcessOutput:
     def __init__(self, container):
-        self.container = container
+        self.container = container.empty()
         self.output_text = ""
         self.seen_lines = set()
         

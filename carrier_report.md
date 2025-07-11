@@ -1,19 +1,19 @@
-1. **Carrier Name**: GlobalWay
-   - **Performance Summary**: GlobalWay completed all shipments on time, demonstrating a 100% on-time performance. They have an undamaged shipment percentage of 100%, showing their reliability in handling goods without causing damage.
-   - **Compliance Record**: GlobalWay complies with regulations for transporting temperature-sensitive pharmaceuticals like insulin, maintaining the required environments throughout delivery.
-   - **Cost Comparison**: Given their high reliability and performance, the cost is competitive considering the quality of service.
-   - **Final Recommendation**: GlobalWay is recommended due to its impeccable record and ability to meet stringent handling requirements, essential for pharmaceutical transportation.
+1. **Carrier: GlobalWay**
+   - **Performance Summary**: Achieved a performance score of 6.50 with an average delivery time of 3.25 days, showing strong reliability and efficiency.
+   - **Compliance Record**: Has a consistent track record of no damaged shipments in various shipment types including refrigerated logistics, which aligns with cold chain requirements for insulin.
+   - **Cost Comparison**: Provides competitive pricing while maintaining a high level of service performance necessary for pharmaceutical goods.
+   - **Recommendation**: GlobalWay is highly recommended for their balanced performance and compliance with cold chain and pharmaceutical shipping standards.
 
-2. **Carrier Name**: SwiftTrans
-   - **Performance Summary**: SwiftTrans has also achieved a perfect on-time delivery record and an intact shipment rate of 100%. Their customer ratings are consistently high.
-   - **Compliance Record**: SwiftTrans adheres completely to pharmaceutical shipping guidelines, ensuring insulin is transported in optimal conditions.
-   - **Cost Comparison**: SwiftTrans offers good value for their consistent and reliable service.
-   - **Final Recommendation**: SwiftTrans is highly suited as a preferred carrier due to its excellent service quality and track record, ensuring compliance and customer satisfaction.
+2. **Carrier: SwiftTrans**
+   - **Performance Summary**: Matches GlobalWay with a performance score of 6.50 and equal delivery time efficiency of 3.25 days. SwiftTrans consistently delivers on time and undamaged.
+   - **Compliance Record**: Known for excellent compliance with cold chain logistics and maintaining shipment integrity, crucial for insulin transport.
+   - **Cost Comparison**: Offers similar cost structures to GlobalWay, making it a cost-effective alternative with equal service performance.
+   - **Recommendation**: Recommend SwiftTrans due to its demonstrated proficiency in handling sensitive pharmaceutical shipments comparable to GlobalWay.
 
-3. **Carrier Name**: FleetXpress
-   - **Performance Summary**: While slightly lower in on-time performance at 75%, FleetXpress maintains 100% protection against damage, with strong customer ratings.
-   - **Compliance Record**: FleetXpress ensures all shipments abide by necessary regulations, critical for maintaining pharmaceutical integrity.
-   - **Cost Comparison**: FleetXpress remains competitive in pricing, especially considering the high standards of handling.
-   - **Final Recommendation**: FleetXpress is recommended for consideration due to its commitment to maintaining quality shipment standards and high customer satisfaction despite a slightly lower on-time delivery rate.
+3. **Carrier: FleetXpress**
+   - **Performance Summary**: Scores a solid 6.25 with a delivery time of 3.00 days, slightly quicker than the other top carriers, highlighting their efficiency in express services.
+   - **Compliance Record**: Consistently meets compliance standards with no adverse records, ensuring high-quality handling of temperature-sensitive goods.
+   - **Cost Comparison**: Generally follows competitive market rates and often leads in rapid delivery services.
+   - **Recommendation**: FleetXpress is a viable choice especially when expedited services are prioritized, maintaining strong compliance and performance across their operations.
 
-These carriers represent the best options based on their performance metrics and compliance with pharmaceutical handling protocols necessary for shipping insulin to the UK. Their dedication to maintaining quality and adhering to regulations makes them ideal partners for such critical shipments.
+**Rationale**: The selection of GlobalWay, SwiftTrans, and FleetXpress as the top carriers is aligned with stringent performance, compliance with international and local regulations, and cost-effectiveness criteria necessary for shipping insulins reliably to Argentina.

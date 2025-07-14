@@ -1,6 +1,6 @@
 import pandas as pd
 
-filepath = "lknowledge/carrier_data.csv"
+filepath = "knowledge/carrier_data.csv"
 
 def create_carrier_scorecard(file_path: str) -> pd.DataFrame:
     """
@@ -17,7 +17,7 @@ def create_carrier_scorecard(file_path: str) -> pd.DataFrame:
         raise ValueError(f"Missing required columns: {', '.join(missing_cols)}")
     
     scorecard = df[required_cols].copy()
-    print(scorecard.head())
+    print("Historical data:\n",scorecard)
 
     # Convert 'OnTime' and 'Damaged' to boolean values 0 or 1
     for row in scorecard.index:
@@ -31,11 +31,15 @@ def create_carrier_scorecard(file_path: str) -> pd.DataFrame:
             (1 - scorecard.at[row, 'Damaged']) * 0.3 +
             scorecard.at[row, 'CustomerRating'] * 0.2
         )
-
+    
+    # Group by 'CarrierName' and calculate the average score
+    scorecard = scorecard.drop(columns=['OnTime', 'Damaged', 'CustomerRating'])
+    scorecard = scorecard.groupby('CarrierName').mean().reset_index()
+    scorecard = scorecard.sort_values(by='FinalScore', ascending=False)
     return scorecard 
 
 if __name__ == "__main__":
     scorecard = create_carrier_scorecard(filepath)
-    print(scorecard.head())
+    print("\nScorecard:\n",scorecard)
     # Save the scorecard to a new CSV file
-    scorecard.to_csv("logistics/knowledge/carrier_scorecard.csv", index=False)
+    scorecard.to_csv("knowledge/carrier_scorecard.csv", index=False)

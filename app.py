@@ -91,6 +91,18 @@ if run_btn:
             on_click="ignore"
         )
 
+        # Download carrier scorecard
+        with open("knowledge/carrier_scorecard.csv", 'r', encoding='utf-8') as file:
+            scorecard_content = file.read()
+        st.download_button(
+            label="Download Carrier Scorecard",
+            data=scorecard_content,
+            file_name="carrier_scorecard.csv",
+            mime="text/csv",
+            help="Download the carrier scorecard CSV file",
+            on_click="ignore"
+        )
+
 # # Add footer
 # st.divider()
 # footer_col1, footer_col2, footer_col3 = st.columns([1, 2, 1])

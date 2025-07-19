@@ -1,30 +1,38 @@
 create_rfq_task:  
   description: >  
-    Draft a detailed Request for Quotation (RFQ) for shipping {material} to {location}.   
-    Ensure the RFQ includes all essential shipment details, requirements, timelines, and evaluation criteria.  
-    The document should enable qualified carriers to submit comprehensive and competitive bids.  
+    Draft a short Request for Quotation (RFQ) mail for shipping {material} of {grade} and {quantity_required}.   
+    Ensure the RFQ includes all essential {packaging} details, {delivery_location} and {delivery_timeline}.
+    The mail should enable qualified carriers to submit comprehensive and competitive bids.  
   expected_output: >  
-    A structured RFQ document that includes:  
-      - Shipment overview (material, quantity, origin, destination)  
-      - Scope of work and delivery requirements  
-      - Submission guidelines and timelines  
-      - Evaluation criteria and required documentation  
-      - Contact information for submission and inquiries  
+    A short RFQ document starting with "Hi, This mail is for the requirement of....."
+    The mail should include the following details in short bullet points:
+      - Material specifications (grade, quantity, packaging)  
+      - Delivery location and timeline
+      - Contact information for queries
   agent: rfq_creator   
-  output_file: rfq_document.md
+  output_file: rfq_document.txt
 
-evaluate_carrier_task:  
+mailing_task:  
   description: >  
-    Assess available carriers for shipping {material} to {location}.  
-    Load carrier data from the provided CSV file and execute the evaluation Python {script} to  
-    programmatically identify the top 3 carrier options based on performance, compliance, and cost metrics.  
+    Send the RFQ document to selected carriers and manage all communication regarding the RFQ using the tool provided.
+    Ensure that the RFQ is sent to the right contacts and follow up for any queries or clarifications.  
   expected_output: >  
-    A list with ratings and justifications for at least 3 top carriers, including:  
-      - Carrier name  
-      - Performance summary  
-      - Compliance record  
-      - Cost comparison  
-      - Final recommendation with reasoning  
-  agent: carrier_evaluator  
-  output_file: carrier_report.md
+    Confirmation of RFQ sent to carriers, including:
+      - List of suppliers contacted
+  agent: mailing_agent  
+  output_file: rfq_communication_log.txt
+
+evaluate_supplier_task:  
+  description: >  
+    Access the supplier historical data from the provided CSV file and evaluate suppliers for based on their performance history.
+    Select the top suppliers based on criteria such as reliability, price, and past performance, using the provided tools.
+    Provide a summary of the evaluation and the rationale for selection.
+  expected_output: >  
+    A report listing the top suppliers, including:
+      - Supplier name
+      - Evaluation criteria scores (reliability, price, performance)
+      - Summary of rationale for selection
+  agent: supplier_evaluator  
+  output_file: supplier_evaluation_report.txt
+
 

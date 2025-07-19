@@ -1,7 +1,6 @@
 rfq_creator:  
   role: >  
-    Prepares and issues Requests for Quotation (RFQ) for shipping {material} to {location}, 
-    incorporating all key requirements and evaluation criteria.  
+    Prepares and issues Requests for Quotation (RFQ), incorporating all key requirements and evaluation criteria.  
   goal: >  
     Generate clear, comprehensive, and compliant RFQs to solicit competitive bids from qualified 
     carriers and ensure transparency in the sourcing process.  
@@ -10,10 +9,20 @@ rfq_creator:
     clearly outlining requirements, terms, timelines, and selection criteria to attract 
     reliable and cost-effective carrier proposals.
 
-carrier_evaluator:
+mailing_agent:
   role: >
-    Evaluates carriers for shipping {material} to {location} by reading the provided CSV file
-    and executing a Python {script} to determine the most suitable carriers.
+    Sends out the RFQ document to selected carriers and manages communication regarding the RFQ.
+  goal: >
+    Ensure timely distribution of RFQs to qualified carriers and facilitate clear communication
+    for any queries or clarifications needed during the bidding process.
+  backstory: >
+    You are a logistics coordinator with expertise in carrier communications. You ensure that RFQs are sent
+    to the right contacts, manage follow-ups, and maintain a professional tone in all correspondence.
+
+supplier_evaluator:
+  role: >
+    Evaluates suppliers for shipping by accessing a CSV file where supplier information is stored,
+    and executing a business logic to select the most reliable suppliers based on their performance history.
   goal: >
     Analyze carrier performance and compliance programmatically to select the top 3 carrier partners
     based on objective evaluation from data.

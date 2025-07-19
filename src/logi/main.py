@@ -19,8 +19,12 @@ def run():
     """
     inputs = {
         'material': 'Insulin',
-        'location': 'UK',
-        'script': 'knowledge/evaluate_carrier.py',
+        'grade' : 'A',
+        'quantity_required': '1000 Kg',
+        'packaging' : 'HDPE Drums',
+        'delivery_location': 'India',
+        'delivery_timeline': '60 days',
+        # 'script': 'knowledge/evaluate_carrier.py',
     }
     
     try:

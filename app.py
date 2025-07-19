@@ -22,7 +22,8 @@ with col2:
     st.write("""
                 The agent
                 \n 1. Writes RFQs for shipping materials.
-                \n 2. Evaluates carriers for shipping materials based on their historical performance.
+                \n 2. Sends RFQs to suppliers and manages communication.
+                \n 3. Evaluates carriers for shipping materials based on their historical performance.
              """)
 
 # Create two boxes for the input section
@@ -90,6 +91,21 @@ if run_btn:
             help="Download the RFQ document text",
             on_click="ignore"
         )
+
+        # Download RFQ communication log
+        if os.path.exists("rfq_communication_log.txt"):
+            with open("rfq_communication_log.txt", 'r', encoding='utf-8') as file:
+                communication_content = file.read()
+            st.download_button(
+                label="Download RFQ Communication Log",
+                data=communication_content,
+                file_name="rfq_communication_log.txt",
+                mime="text/plain",
+                help="Download the RFQ communication log text",
+                on_click="ignore"
+            )
+        else:
+            st.warning("RFQ communication log not found.")
 
         # Download carrier scorecard
         with open("knowledge/carrier_scorecard.csv", 'r', encoding='utf-8') as file:
